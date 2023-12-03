@@ -117,27 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGsAAAA6CAYAAAC3badeAAAABGdBTUEAALGPC/xhBQAAAwJJREFUeF7t
-        mY2N6jAQhOmEUiiFUiiFUiiFUnj35e0gn5XEJjjBOeaTotj5UzKzu17uDsaYH2632+N6vT4ul8uDcRw2
-        PXI8HgeD7vf7Q2PTKZik/el0sll7gFIo40zHeM3aIZhmwzpFnWBM3WT0DKWPLaaDeefz2Wa1orWYmEV2
-        ad2Kw+ZdYj1x17YHIvJtVu+QVc6sHYA5tWZxTfq7SWM3Dhuh9rpkFsd1bTBcyzH/KWkDMEjm1JgVw+Fa
-        G7QxaaaUzEqh9LkV3xBMkejJujOMw7hJyKr0mhqDTUNKmYVBZGKcf16TrWNmbTCqlFmc5xzmcD4dxyX7
-        gZeP4WJUmmJq1oCoa1W3FbUxNS2hFLQWt6X5JoH/0bQWluzy75gJyA62WGSf5C1qDvdMiYqBeqYyRfOa
-        RXmNINg9CJeIl4szKxjCT5VAjGEf9z8DARN0bo65Z38tEo59miUYWPo3NOfHsiQ9JrMy84rk7wMYyLHS
-        Vpu9uyWPZMZ8eEynKJaqMOnlklYTLN/Mr2jEqLkypIwpmUAQLBE93uXl+/48Y8JPlTihe/7PfpM/B8Ni
-        +iy7JcbMqi2DbCPvruftZRsnN6smqvN7UjAIUzjHWBnK/B2zTICgRK4WdrY4NceoWVr/eBai8yzGtUYB
-        9y0pn18H4s6tV6JUKt9BQRPTj8H38S7osda3vgQvogyJ/WjG5CgTY9oUZWdMP4ayGz0+nukyR1GjksW4
-        xJrRjzA1AbM2egf2PWT6ILpS/dVMWUNUAqcLYRLQpYfgeQuZHNMmUAK7WB8CfWNP77SYluKuYX4reLc/
-        YVgLgSkzPRmFMRgU0z6aDDMOgZMGD+ZRRWJqegOzyK5W5bmbrtJMoxIfmbn/zvIbiAbFZu0Bm/UC6vAo
-        Sel4q8bBZlWCQGkr/sMgGse2WvRtViWpQIj2ia7MZi2A0teiFcdwfihrCzMmsVkLQORU2K3Es1mVYBDr
-        Uwj1FCtbx1bFZlVCx0fpwxxES8dxyWpgTtJ1DvsWZdgYY4wxxhjTGYfDP/XFNvbHIbEgAAAAAElFTkSu
-        QmCC
+  <data name="textBoxCondition_EIH.Text" xml:space="preserve">
+    <value>Дан массив 5 на 5 элементов. Выполнить сортировку по возрастанию во втором столбце.
+
+Результат вывести в DataGridView.
+
+-18  21  10  -2  12
+
+ -18 -10  33 -20  32
+
+  14 -15 -14  12 -18
+
+ -19   5  -3  28 -17
+
+ -14  -9  23 -13  11
 </value>
   </data>
 </root>
