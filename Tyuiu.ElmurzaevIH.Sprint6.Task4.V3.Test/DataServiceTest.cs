@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.IO;
 using Tyuiu.ElmurzaevIH.Sprint6.Task4.V3.Lib;
 
 namespace Tyuiu.ElmurzaevIH.Sprint6.Task4.V3.Test
@@ -35,6 +36,16 @@ namespace Tyuiu.ElmurzaevIH.Sprint6.Task4.V3.Test
             double[] res = new double[len];
             res = ds.GetMassFunction(start, end);
             CollectionAssert.AreEqual(wait, res);
+        }
+
+        [TestMethod]
+        public void CheckedExistsFile()
+        {
+            string path = @"C:\Users\adami\source\repos\Tyuiu.ElmurzaevIH.Sprint6\Tyuiu.ElmurzaevIH.Sprint6.Task4.V3\bin\Debug\OutPutFileTask4V3.txt";
+            FileInfo fileInfo = new FileInfo(path);
+            bool fileExists = fileInfo.Exists;
+            bool wait = true;
+            Assert.AreEqual(wait, fileExists);
         }
     }
 }
