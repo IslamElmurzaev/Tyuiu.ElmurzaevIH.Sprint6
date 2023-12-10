@@ -40,7 +40,7 @@
             this.pictureBoxDeveloper_EIH.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxDeveloper_EIH.Image")));
             this.pictureBoxDeveloper_EIH.Location = new System.Drawing.Point(13, 13);
             this.pictureBoxDeveloper_EIH.Name = "pictureBoxDeveloper_EIH";
-            this.pictureBoxDeveloper_EIH.Size = new System.Drawing.Size(151, 144);
+            this.pictureBoxDeveloper_EIH.Size = new System.Drawing.Size(151, 163);
             this.pictureBoxDeveloper_EIH.TabIndex = 0;
             this.pictureBoxDeveloper_EIH.TabStop = false;
             // 
