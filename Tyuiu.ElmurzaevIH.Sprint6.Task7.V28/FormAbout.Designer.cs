@@ -29,36 +29,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBoxDeveloper_EIH = new System.Windows.Forms.PictureBox();
+            this.labelInfo_EIH = new System.Windows.Forms.Label();
             this.buttonOK_EIH = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeveloper_EIH)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBoxDeveloper_EIH
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(154, 180);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxDeveloper_EIH.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxDeveloper_EIH.Image")));
+            this.pictureBoxDeveloper_EIH.Location = new System.Drawing.Point(15, 16);
+            this.pictureBoxDeveloper_EIH.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBoxDeveloper_EIH.Name = "pictureBoxDeveloper_EIH";
+            this.pictureBoxDeveloper_EIH.Size = new System.Drawing.Size(173, 225);
+            this.pictureBoxDeveloper_EIH.TabIndex = 0;
+            this.pictureBoxDeveloper_EIH.TabStop = false;
             // 
-            // label1
+            // labelInfo_EIH
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(187, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(343, 160);
-            this.label1.TabIndex = 1;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.labelInfo_EIH.AutoSize = true;
+            this.labelInfo_EIH.Location = new System.Drawing.Point(210, 16);
+            this.labelInfo_EIH.Name = "labelInfo_EIH";
+            this.labelInfo_EIH.Size = new System.Drawing.Size(407, 200);
+            this.labelInfo_EIH.TabIndex = 1;
+            this.labelInfo_EIH.Text = resources.GetString("labelInfo_EIH.Text");
             // 
             // buttonOK_EIH
             // 
             this.buttonOK_EIH.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.buttonOK_EIH.Location = new System.Drawing.Point(455, 176);
+            this.buttonOK_EIH.Location = new System.Drawing.Point(512, 220);
+            this.buttonOK_EIH.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.buttonOK_EIH.Name = "buttonOK_EIH";
-            this.buttonOK_EIH.Size = new System.Drawing.Size(75, 23);
+            this.buttonOK_EIH.Size = new System.Drawing.Size(84, 29);
             this.buttonOK_EIH.TabIndex = 3;
             this.buttonOK_EIH.Text = "OK";
             this.buttonOK_EIH.UseVisualStyleBackColor = false;
@@ -66,19 +68,20 @@
             // 
             // FormAbout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(561, 205);
+            this.ClientSize = new System.Drawing.Size(631, 256);
             this.Controls.Add(this.buttonOK_EIH);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.labelInfo_EIH);
+            this.Controls.Add(this.pictureBoxDeveloper_EIH);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "О программе";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDeveloper_EIH)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,8 +89,8 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBoxDeveloper_EIH;
+        private System.Windows.Forms.Label labelInfo_EIH;
         private System.Windows.Forms.Button buttonOK_EIH;
     }
 }
